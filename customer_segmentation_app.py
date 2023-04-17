@@ -45,7 +45,7 @@ backgroundColor="#FFFFFF"
 if page =="Homepage":
     
     
-    image = Image.open(r'C:\\Users\\Adith\\Desktop\\Data Science_Excel R\\Projects Datascience\\web images\\Customer-Segmentation.jpg')
+    image = Image.open("Customer-Segmentation.jpg")
 
     st.image(image)
     
