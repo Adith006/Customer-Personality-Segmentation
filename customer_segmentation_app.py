@@ -8,12 +8,6 @@ Created on Sat Apr  8 14:43:10 2023
 import pandas as pd
 import streamlit as st
 import pickle
-import sklearn
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
-from sklearn.preprocessing import StandardScaler
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sn 
 from PIL import Image
