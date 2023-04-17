@@ -19,14 +19,14 @@ from PIL import Image
 
 loaded_model = pickle.load(open('final_model.sav','rb'))
 
-df = pd.read_csv(r"C:/Users/Adith\Desktop/Data Science_Excel R/Projects Datascience/clustering_final.csv")
+df = pd.read_csv("clustering_final.csv")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-df_cust5 = pd.read_csv(r"C:/Users/Adith/Desktop/Data Science_Excel R/Projects Datascience/plot_dataframe.csv")
+df_cust5 = pd.read_csv("plot_dataframe.csv")
 
-df_cust = pd.read_excel(r"C:/Users/Adith/Desktop/Data Science_Excel R/Projects Datascience/marketing_campaign3.xlsx")
+df_cust = pd.read_excel("marketing_campaign3.xlsx")
 
-df_cust7 = pd.read_csv(r"C:/Users/Adith/Desktop/Data Science_Excel R/Projects Datascience/evaluation_dataframe.csv")
+df_cust7 = pd.read_csv("evaluation_dataframe.csv")
 
 st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
