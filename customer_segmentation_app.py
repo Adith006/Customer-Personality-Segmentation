@@ -8,6 +8,8 @@ Created on Sat Apr  8 14:43:10 2023
 import pandas as pd
 import streamlit as st
 import pickle
+import sklearn
+import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sn 
 from PIL import Image
