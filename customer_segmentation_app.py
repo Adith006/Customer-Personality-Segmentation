@@ -16,8 +16,8 @@ from PIL import Image
 
 
 
-filename = "C://Users//Adith//Desktop//Data Science_Excel R//Projects Datascience//final_model.sav"
-loaded_model = pickle.load(open(filename,'rb'))
+
+loaded_model = pickle.load(open('final_model.sav','rb'))
 
 df = pd.read_csv(r"C:/Users/Adith\Desktop/Data Science_Excel R/Projects Datascience/clustering_final.csv")
 st.set_option('deprecation.showPyplotGlobalUse', False)
