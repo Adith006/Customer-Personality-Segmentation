@@ -8,6 +8,7 @@ Created on Sat Apr  8 14:43:10 2023
 import pandas as pd
 import streamlit as st
 import pickle
+import sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
@@ -302,7 +303,12 @@ if page =="Data Analysis":
         
         st.write("In this project we have worked over Customer Segmentation for a company and perform a personality analysis of the customers purchases over products")
         st.write("In this project we have understood that the customer segmentation can be divided into many types of segmentation and also we have observed that which classes have the highest purchases and expenses based on income and age categories ")
-        st.write("A Project By Team 6")
+        
+      
+        
+        
+        
+        
         st.write("Thankyou")
         
     
