@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import seaborn as sn 
 from PIL import Image
 
-pd.options.mode.fake_option = True
+
 
 
 
